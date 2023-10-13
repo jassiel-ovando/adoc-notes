@@ -1,0 +1,125 @@
+= Game Theory
+
+== Concepts
+
+* Game theory is a branch of mathematics with applications to economics, sociology, biology and psychology, which analyzes the interactions between individuals who make decisions in a framework of formalized incentives (games). In a game, several agents seek to maximize their utility by choosing certain courses of action chosen by the rest of the individuals.
+* Game theory is a tool that helps to analyze interactive optimization problems. It also has many applications in the social sciences. Most of the situations studied by game theory involve conflicts of interest, strategies and traps. Of particular interest are situations in which a better outcome can be obtained when agents cooperate with each other than when agents try to maximize only their individual utility.
+
+== Elements
+
+* *Game:* Any set of circumstances that has a result dependent on the actions of two or more decision-makers (players).
+* *Players:* Individuals who make decisions in a game, seeking to obtain the best possible result for themselves. A strategic decision-maker within the context of the game.
+* *Actions:* Each of the possible decisions that a player can make within the game.
+* *Strategies:* A complete plan of action a player will take given the set of circumstances that might arise within the game.
+* *Information:* The information available at a given point in the game (The term information set is most usually applied when the game has a sequential component). The values information that each strategy will take.
+* *Payoffs:* The payout a player receives from arriving at a particular outcome (The payout can be in any quantifiable form, from dollars to utility).
+* *Equilibrium:* Set of strategies that the participants in a game choose to maximize their utility, given the strategies chosen by the rest of the participants.
+
+== Types
+
+Life is full of conflict and competition. Numerous examples involving adversaries in conflict include board games, military combat, political campaigns, sports competitions, advertising and marketing campaigns in business competitions, among others. A basic feature in many of these situations is that the outcome is selected by the adversaries. Game theory is a mathematical theory that studies the general characteristics of competitive situations in a formal and abstract way. In addition, it attaches special importance to the decision-making processes of adversaries.
+
+This theory has applications in many areas, including economics, evolutionary biology, psychology, political science, industrial design, operations research, computer science and military strategy.
+
+.Among the types we have:
+* Symmetric and asymmetric games
+* Zero-sum and non-zero-sum games
+* Maximin and minimax strategies
+* Nash equilibrium
+* Simultaneous and sequential cooperative games
+* Perfect information games
+* Infinite length games (super games)
+
+=== Zero-Sum and Non-Zero-Sum Games
+
+==== Zero-Sum 
+
+Games where the players interest are strictly the opposite.
+As example the rock-paper-scissors game, where one player wins and the other loses.
+
+The table would be:
+
+|===
+| | Rock | Paper | Scissors
+
+h| Rock 
+| (0,0)
+| (-1,1)
+| (1,-1)
+
+h| Paper 
+| (1,-1) 
+| (0,0) 
+| (-1,1)
+
+h| Scissors 
+| (-1,1) 
+| (1,-1) 
+| (0,0)
+|===
+
+=== Nash Equilibrium
+
+This theory is based on _Nash equilibrium_ (_John Forbes Nash_, Nobel prize in economics), consist in a situation where there are more than 2 players and none of them wants to change the equilibrium situation, *why?* because it would mean to worsen their own situation, from this concept many economists, among them _John von Neumann_, started developing this theory.
+
+==== Example: Prisoner's Dilemma
+
+* For better understanding the _prisoner's dilemma_ is used.
+* Suppose a situation in which we are arrested along with another for a robbery. The penalty for this crime is two years in prison. The police know that there has also been a shooting, but don't know who did it; the penalty for this other crime is five years in prison.
+* Both thieves are totally isolated from each other, and in the interrogation the police propose to each one the following deal: _if we denounce our partner as the author of the shooting, we will be only one year in prison, while our partner will be ten._
+* For better understanding, we make a *decision matrix (also called normal)*:
+
+.Decision Matrix
+|===
+2.2+| 2+h| Prisoner 1
+h| Denounce h| Not Denounce
+.2+h| Prisoner 2 h| Denounce | (2,2) | (10,1)
+h| Not Denounce | (1,10) | (5,5)
+|===
+
+Given that we don't know what our partner will do, our best option is to denounce, independently of what our partner does. Because if we denounce, _and_:
+* Our partner denounce us, then we both will be 5 years in prison.
+* Our partner doesn't denounce us, then we will be 1 year in prison and our partner 10.
+
+But if we don't denounce, _and_:
+* Our partner denounce us, then we will be 10 years in prison and our partner 1.
+* Our partner doesn't denounce us, then we both will be 2 years in prison.
+
+As seen, the best option for both would be to not denounce, but the problem is that we don't know what our partner will do, so we will denounce. +
+*Why?* Because it's more likely that our partner denounce us (_same thinking_), and we don't want to be 10 years in prison.
+
+==== Dominant Strategy
+
+* Analyze decisions or strategies that players make in a game, taking into account the decisions of the other players.
+* There's a type of situation where a player has an optimal strategy regardless of the opponent's strategy.
+
+.Decision Matrix
+|===
+2.2+| 2+h| Business B
+h| Invest h| Not Invest
+.2+h| Business A h| Invest s| (30,25) | (50,10)
+h| Not Invest| (2,40) | (25,15)
+|===
+
+*Game solution?* Both must invest, so it leads to the dominant strategies.
+
+* For the first business, the option are:
+** If it does, then it can have *30 or 50* depending on the second business decision.
+** If it doesn't, then it can have *20 or 25.*
+*** So the best option is to invest.
+* For the second business, the options are:
+** If it does, then it can have 25 or 40.
+** If it doesn't, then it can have 10 or 15.
+*** The best option is to invest,
+
+Therefore, both independently must invest so they choose the best strategy (option called *dominant strategy*).
+
+
+== Nature of Games
+
+Game theory is a logical analysis of conflict and cooperation situations, specifically, a game is defined in any situation where:
+
+* There are two or more players.
+* Each player has a finite number of possible actions.
+* The result of the game depends on the actions or strategies of all players.
+* The result of the game determines the utility or payoff of each player.

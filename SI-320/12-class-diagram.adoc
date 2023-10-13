@@ -1,0 +1,17 @@
+= Class Diagrams
+
+ATRIBUTOS
+
+* son descripciones de carateristicas, se usan para modelar informacion asociada con una entidad, sintaxis:
+<nombre atributo>[<multiplicidad>]: <tipo> = <valor>
+* la mulitplicidad es opcional e indica el numero de atributso por isntancia de la clase.
+
+OPERACIONES
+
+* una operacion es la implementacion de un servicio que puede ser solicitado desde cualquier objeto de la clase para afectar el comportamiento
+* una clase puede tener cualquier numero de operaciones o carecer de ellas
+* un nombre de operacion es un verbo o frase verbal que representa algun comporntaimeitno
+* en una  operacion se puede establecer su firma, abacaoerifjawio jaoierh; haerp4hj
+sintaxyis: <nombre operacion>(<parametros>): <tipo retorno>
+
+INTERFACE

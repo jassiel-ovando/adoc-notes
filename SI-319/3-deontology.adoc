@@ -1,0 +1,118 @@
+= Deontology
+
+== Definition
+
+* The etymological origin of the term deontology comes from Greek and is the sum of two words:
+** "Deontos", which is translated as "duty or obligation".
+** "Logy", which is synonymous with "study".
+
+Deontology is a concept that is used to name the treaty or discipline that focuses on the analysis of *duties* and *values* governed by **morality*.
+
+* The British philosopher Jeremy Bentham was responsible for defining this concept.
+* Deontology is part of what is known as normative ethics (philosophy indicates what should be considered good and what should be classified as bad).
+
+*_How do we consider or qualify that it is good or bad?_*
+
+*_How do we interpret it?_*
+
+.Definition
+*You aren't responsible of what you do, but of what you don't do, don't defend and don't fight for.*
+
+* *_Is it bad to be a very good person?_*
+* *_Why yes or why not?_*
+
+* Deontology analyzes the internal duties of the individual.
+* That is, what you should do or avoid according to what dictates your *_conscience._*
+* The values shared and accepted by ethics are collected by the deontological codes.
+* Deontology is known as the *_theory of duty._*
+
+* *Conscience* is defined as the knowledge that an individual has of his thoughts, his feelings and his actions.
+* The word comes from the Latin _conscientĭa_, which is translated as 'knowledge', that is: with knowledge.
+* Inconscience means that the person is not able to perceive what happens to him or what happens around him.
+
+.Conscience
+* The conscience is the capacity of human beings to:
+** Recognize yourself
+** Have knowledge
+** Perception of your own existence and your environment
+* Conscience is associated with the mental activity that implies a domain by the individual himself over his senses.
+* A conscious person is one who has knowledge of what happens to him and in his environment.
+
+* The verb must come from the Latin word _debēre_.
+* The concept refers to having a certain obligation.
+* Example: "In an emergency, a doctor's duty is to save life, regardless of who the injured person is."
+* A duty arises from the imposition of a **law** or some type of *regulation*.
+* Example: Drivers must use a seat belt, as well as motorcycle drivers must wear a helmet. Those who do not comply with this **duty** commit an offense.
+
+* Duty also arises from a moral mandate linked to gratitude or respect.
+* Example: Let us suppose that a man finds out that a person who helped him in his childhood has economic problems. ➔ The subject feels that he has the duty to collaborate with the one who helped him in the past ➔ he offers him a job in his company.
+* Duty is also called a debt. If someone requests a loan of Bs. 5000 from a banking institution, with an interest of 10%, this person owes Bs. 5500 to the bank.
+* Duty can also refer to the task that students must carry out in their homes at the request of teachers in order to complete learning in class.
+
+* Duty can also allude to a debt. If someone requests a loan of Bs. 5000 from a banking institution, with an interest of 10%, this person owes Bs. 5500 to the bank.
+* Also called duty to the task that students must carry out in their homes at the request of teachers in order to complete learning in class.
+
+* Deontology or deontological theory is considered as an ethical theory that deals with regulating duties, translating them into:
+** Precepts
+** Moral norms
+** Rules of conduct
+* Jeremy Bentham, defines it as: "_the branch of art and science_ whose object consists of doing on each occasion what is right and appropriate ".
+* This theory applied to the professional field gives rise to professional deontology and determines the duties that are required of professionals in the performance of their activity.
+
+* Each profession, trade or specific area has its own deontology that indicates what the duty of each person is.
+* Professions have a deontological code, which is a manual or guide, which compiles the moral obligations that those who exercise a certain job must respect.
+
+.Definition of Deontology
+* Ethic code
+* Norms
+* Obligations
+* Collective
+* Consensual
+* Requirement
+* Action
+* Responsibility
+* Criteria
+* Self-regulation
+
+== Differences between Professional Ethics and Deontology
+
+* The difference between "ethics" and "deontology" is in:
+** Ethics refers to personal conscience
+** Deontology adopts a function of model of action in the area of a community.
+
+* Deontology, has sanctioning consequences.
+* In reference to professions, one can speak of the existence of an ethics and a particular deontology.
+** Ethics focuses on determining and profiling the good of a particular profession (contribution to the social good)
+** Deontology, focuses on defining what are the specific obligations of each activity.
+
+=== Professional Ethics
+
+* Oriented to the good
+* Not normative
+* Not enforceable
+* Proposes motivations
+* Individual conscience predominant
+* Amplitude is concerned with the maximum
+* Part of applied ethics
+
+=== Professional Deontology
+
+* Oriented to the duty
+* Norms and codes
+* Enforceable to professionals
+* Requires actions
+* Approved by a group of professionals
+* Minimum mandatory established
+* It is located between morality and law
+
+== Nature of deontological codes
+
+* The Statutes will regulate:
+** The regime of distinctions and awards
+** The disciplinary regime
+* The Statutes are the regulatory instrument to regulate the disciplinary regime of professional associations.
+* The Deontological Norms establish the corresponding professional duties, and their breach constitutes an infraction that would lead to a sanction, within the framework of the Statutes.
+
+* The approval of the Statutes is given by the Government through the respective Ministry.
+* It is a guarantee of legal security that the Deontological Norms cannot have, "per se". If not through the sufficient legal entity to typify a disciplinary infraction.
+* "_The purpose of the rules of the deontological codes is not_ _punitive of punishment of divergent behaviors, but preventive in the_ _sense of showing guidelines of excellence and of the_ _exercise of the social function that the professions have_ _entrusted"_.
