@@ -2,7 +2,7 @@
 Jassiel O. F.  <a2021117600@estudiantes.upsa.edu.bo>
 // v2021.02
 // :description: any description
-// :source-highlighter: highlight.js
+:source-highlighter: highlight.js
 :icons: font
 // :doctype: article
 :toc: right
@@ -92,5 +92,30 @@ Universidad Privada de Santa Cruz de la Sierra -- UPSA
 === Projects
 
 ==== xref:SI-320/project-1.adoc[First Project Improvements -- Requirements Definition]
+
+[plantuml]
+....
+@startuml
+title
+    compra
+    |_ (1200, 10)
+      |_ (oijwefoij)
+      |_ (12,12.32  )
+    |_ (1200, 20)
+    |_ (1500, 30)
+end title
+@enduml
+....
+
+image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
+
+video::RvRhUHTV_8k[youtube]
+
+include::doc.adoc[]
+
+[source, sql]
+----
+include::query.sql[]
+----
 
 // == Laboratory of Operating Systems II
