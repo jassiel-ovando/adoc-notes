@@ -107,6 +107,41 @@ end title
 @enduml
 ....
 
+[plantuml]
+----
+@startuml
+title
+    compra
+    |_ (1200, 10)
+      |_ (oijwefoij)
+      |_ (12,12.32  )
+    |_ (1200, 20)
+    |_ (1500, 30)
+end title
+@enduml
+----
+
+[ditaa]
+....
+                   +-------------+
+                   | Asciidoctor |-------+
+                   |   diagram   |       |
+                   +-------------+       | PNG out
+                       ^                 |
+                       | ditaa in        |
+                       |                 v
+ +--------+   +--------+----+    /---------------\
+ |        | --+ Asciidoctor +--> |               |
+ |  Text  |   +-------------+    |   Beautiful   |
+ |Document|   |   !magic!   |    |    Output     |
+ |     {d}|   |             |    |               |
+ +---+----+   +-------------+    \---------------/
+     :                                   ^
+     |          Lots of work             |
+     +-----------------------------------+
+....
+
+
 image::https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Tux,250,350]
 
 video::RvRhUHTV_8k[youtube]
