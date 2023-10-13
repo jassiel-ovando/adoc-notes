@@ -1,115 +1,96 @@
+= Systems Engineering
+Jassiel O. F.  <a2021117600@estudiantes.upsa.edu.bo>
+// v2021.02
+// :description: any description
+// :source-highlighter: highlight.js
 :icons: font
-:numbered:
-:title: AsciiDoctor GitHub Pages Action
-ifdef::env-github[:outfilesuffix: .adoc]
-
-ifdef::env-github,env-browser[]
-// Exibe ícones para os blocos como NOTE e IMPORTANT no GitHub
-:caution-caption: :fire:
-:important-caption: :exclamation:
-:note-caption: :paperclip:
-:tip-caption: :bulb:
+// :doctype: article
 :toc: right
-:warning-caption: :warning:
-endif::[]
+// :toclevels: 2
+// :toc-title: Contents
+// :sectnums: |,all|
 
-ifdef::env-github[]
-= {title} image:https://github.com/manoelcampos/asciidoctor-ghpages-action/workflows/asciidoctor-ghpages/badge.svg[GitHub Pages Publish,link=http://manoelcampos.com/asciidoctor-ghpages-action/]
-endif::[]
+Universidad Privada de Santa Cruz de la Sierra -- UPSA
 
-ifndef::env-github[]
-= {title}
-endif::[]
+// == Servicio DABE
 
-ifndef::backend-pdf[]
-pass:[<a href="https://buymeacoff.ee/manoelcampos" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 30px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>]
-endif::[]
+// Departamento de Asesoría y Bienestar Estudiantil -- DABE
 
-ifndef::env-github,env-browser[]
-IMPORTANT: An always updated version of this document is https://github.com/manoelcampos/asciidoctor-ghpages-action/blob/gh-pages/ebook.pdf[available here] as a PDF e-book.
-endif::[]
+// == Operational Research I
+// == Applied Programming
+// == Analysis of Quality Control
+// == Laboratory of Operating Systems I
+// == Laboratory of Computer Networks I
+// == Matemática Financiera
+// == Ethical Hacking (Extra)
+// == Advanced Data Structures
+== Analysis for Decision-Making
 
-A GitHub Action that builds AsciiDoc GitHub Pages in your CI workflow. It recursively converts every `adoc` file to `html`, renaming resulting `README.html` to `index.html` then pushing all generated html and existing files to the `gh-pages` branch.
-If you don't need anything fancy like https://antora.org[Antora], this action might be the way to go to publish a simple AsciiDoc website.
-But if you need a more structured website, maybe https://github.com/asciidoctor/jekyll-asciidoc-quickstart[Jekyll AsciiDoc QuickStart] is for you.
+=== xref:IT-323/1-introduction.adoc[Introduction to Decision Making Theory]
+=== xref:IT-323/2-business-levels.adoc[Types of Decisions on Business]
+=== xref:IT-323/3-types.adoc[Types of Decisions for Analysis]
+=== xref:IT-323/4-.adoc[...]
 
-After configuring the action, your GitHub Pages will be available at `http&#58;//your-username.github.io/your-repository`.
+== Operational Research II
 
-WARNING: Keep in mind that every time the action is executed, the `gh-pages` branch is wiped out. If you manually add anything to it, outside of the CI workflow, the content will be lost.
+=== xref:MI-325/1-dynamic.adoc[Dynamic Programming]
+=== xref:MI-325/2-markov.adoc[Markov Chains]
+=== xref:MI-325/3-game.adoc[Game Theory]
+=== xref:MI-325/4-decision.adoc[Decision Theory]
+=== xref:MI-325/5-queue.adoc[Queueing Theory]
+=== xref:MI-325/6-nonlinear-prog.adoc[Non-Linear Programming]
+=== xref:MI-325/7-prognosis.adoc[Prognosis]
+=== xref:MI-325/8-equip-repl.adoc[Equipment Replacement Theory]
 
-ifdef::env-github[]
-== Live Demo
+// == Fundamentals of Programming (Auxiliary)
+== Database
 
-We taste our own medicine by publishing this reposiroty in http://manoelcampos.com/asciidoctor-ghpages-action/[GitHub Pages].
-endif::[]
+== Ethics & Values
 
-ifndef::env-github[]
-== Project on GitHub
+=== Theory
 
-View the https://github.com/manoelcampos/asciidoctor-ghpages-action[project on GitHub] and take the chance to give it a star.
-endif::[]
+==== xref:SI-319/1-ethic-type.adoc[Ethic Type]
+==== xref:SI-319/2-ethical-dilemma.adoc[Ethical Dilemma]
+==== xref:SI-319/3-deontology.adoc[Deontology]
+==== xref:SI-319/4-urs.adoc[University Social Responsibility]
 
-== Configuration
+=== Discussion
 
-You have to just add the action to your yml workflow file and that is it.
-You can optionally customize the build by giving extra parameters to
-the action, which will be handed to the asciidoctor tool.
+==== xref:SI-319/ethics-eng.adoc[The Engineering of Ethics]
+==== xref:SI-319/tech-poverty.adoc[Technology and Poverty]
+==== xref:SI-319/.adoc[Business Strategies]
+==== xref:SI-319/.adoc[The Fate of Piraí]
+==== xref:SI-319/.adoc[Responsibility]
+==== xref:SI-319/.adoc[Health, Money and Love]
+==== xref:SI-319/.adoc[Technology in Times of Cholera]
+==== xref:SI-319/.adoc[A Multiverse of Solutions]
+==== xref:SI-319/real-solutions.adoc[Real Solutions]
+==== xref:SI-319/aee.adoc[AEE -- Association of Energy Engineers]
+==== xref:SI-319/debate.adoc[Principales Debates Éticos sobre la Inteligencia Artificial]
+==== xref:SI-319/.adoc[Information for Students]
+==== xref:SI-319/mentimeter.adoc[Mentimeter Slide]
+==== xref:SI-319/info.adoc[Información para Alumnos]
 
-xref:sem/doc.adoc[Reference to another asciidoc file that should be converted to html]
+== Software Engineering
 
-You can check a complete https://github.com/manoelcampos/asciidoctor-ghpages-action/blob/main/.github/workflows/asciidoctor-ghpages.yml[workflow file here]. If you don't want to use the GitHub Action interface and just copy that file to the same place inside your repository, it may work out of the box.
+=== Theory
 
-=== Troubleshooting 
+==== xref:SI-320/1-introduction.adoc[Introduction]
+==== xref:SI-320/2-sw-evo.adoc[Software Evolution]
+==== xref:SI-320/3-sw-sys.adoc[Software & Systems ]
+==== xref:SI-320/4-projects.adoc[Projects]
+==== xref:SI-320/6-process.adoc[Process]
+==== xref:SI-320/5-rup.adoc[RUP -- Rational Unified Process]
+==== xref:SI-320/7-re-introduction.adoc[Requirements Engineering -- Introduction]
+==== xref:SI-320/8-re-process.adoc[Requirements Engineering -- Process]
+==== xref:SI-320/9-re-analysis.adoc[Requirements Engineering -- Analysis]
+==== xref:SI-320/10-uml.adoc[UML -- Unified Modeling Language]
+==== xref:SI-320/11-use-case.adoc[Use Case Diagrams]
+==== xref:SI-320/12-class-diagram[Class Diagrams]
+==== xref:SI-320/13-sequence-diagram.adoc[Sequence Diagrams]
 
-If you get the error "remote: Permission to git denied to github-actions[bot]",
-access `Settings > Actions > General` and select `Read and write permissions`.
+=== Projects
 
-xref:posts/doc1.adoc[Referecne to another asciidoc file that should be converted to html]
+==== xref:SI-320/project-1.adoc[First Project Improvements -- Requirements Definition]
 
-=== Building an e-book
-
-The action allows enabling the automatic generation of an `ebook.pdf` file from the AsciiDoc files. The pdf is pushed to the `gh-pages` branch too.
-To enable that, just add the following configuration:
-
-[source, yml]
-----
-pdf_build: true
-----
-
-ifdef::env-github,env-browser[]
-A sample PDF ebook is https://github.com/manoelcampos/asciidoctor-ghpages-action/blob/gh-pages/ebook.pdf[available here].
-endif::[]
-
-=== AsciiDoctor Reveal.js Slides
-
-You can also build https://github.com/asciidoctor/asciidoctor-reveal.js/[AsciiDoctor Reveal.js] slides with this action.
-That will generate a slides.html file into the `gh-pages` branch. You can use the following configuration for that:
-
-- `slides_build: boolean` - enables building a slides.html file (default false)
-- `slides_main_adoc_file: string` - defines the name of the AsciiDoc source file to build the slides (default 'README'). **Do not include the file extension.**
-- `slides_skip_asciidoctor_build: boolean` -  to enable skippig the build of regular html files using the asciidoctor command, if you just want to generate the slides (default false)
-
-== Other examples
-
-If you want to check how to create a website from multiple AsciiDoc documents,
-check this https://github.com/manoelcampos/asciidoc-github-template[sample repository].
-It's only in Portuguese, but you can get the structure.
-
-// ifdef::backend-pdf[]
-// include::how-action-works.adoc[]
-// endif::[]
-
-ifndef::backend-pdf[]
-== How the action works
-
-// The syntax below creates a link such as the link::[] command,
-// but that point to the: (i) adoc file if we are in the GitHub web page
-// or (ii) respective html page otherwise.
-
-The action is simple, but to show how you can create a website with multiple pages from different AsciiDoc files,
-// the <<how-action-works#,details are provided here in a separeted page>>.
-And realize the link above points to a: (i) `adoc` file when openning this page
-from the GitHub repository and (ii) `html` file when openning this page from the GitHub Pages. 
-
-
-endif::[]
+// == Laboratory of Operating Systems II
