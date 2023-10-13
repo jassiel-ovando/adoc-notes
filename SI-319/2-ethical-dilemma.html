@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Asciidoctor 2.0.20">
+<title>The Ethical Dilemma</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
+<style>
+/*! Asciidoctor default stylesheet | MIT License | https://asciidoctor.org */
+/* Uncomment the following line when using as a custom stylesheet */
+/* @import "https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700"; */
+html{font-family:sans-serif;-webkit-text-size-adjust:100%}
+a{background:none}
+a:focus{outline:thin dotted}
+a:active,a:hover{outline:0}
+h1{font-size:2em;margin:.67em 0}
+b,strong{font-weight:bold}
+abbr{font-size:.9em}
+abbr[title]{cursor:help;border-bottom:1px dotted #dddddf;text-decoration:none}
+dfn{font-style:italic}
+hr{height:0}
+mark{background:#ff0;color:#000}
+code,kbd,pre,samp{font-family:monospace;font-size:1em}
+pre{white-space:pre-wrap}
+q{quotes:"\201C" "\201D" "\2018" "\2019"}
+small{font-size:80%}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-.5em}
+sub{bottom:-.25em}
+img{border:0}
+svg:not(:root){overflow:hidden}
+figure{margin:0}
+audio,video{display:inline-block}
+audio:not([controls]){display:none;height:0}
+fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}
+legend{border:0;padding:0}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}
+button,input{line-height:normal}
+button,select{text-transform:none}
+button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}
+button[disabled],html input[disabled]{cursor:default}
+input[type=checkbox],input[type=radio]{padding:0}
+button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}
+textarea{overflow:auto;vertical-align:top}
+table{border-collapse:collapse;border-spacing:0}
+*,::before,::after{box-sizing:border-box}
+html,body{font-size:100%}
+body{background:#fff;color:rgba(0,0,0,.8);padding:0;margin:0;font-family:"Noto Serif","DejaVu Serif",serif;line-height:1;position:relative;cursor:auto;-moz-tab-size:4;-o-tab-size:4;tab-size:4;word-wrap:anywhere;-moz-osx-font-smoothing:grayscale;-webkit-font-smoothing:antialiased}
+a:hover{cursor:pointer}
+img,object,embed{max-width:100%;height:auto}
+object,embed{height:100%}
+img{-ms-interpolation-mode:bicubic}
+.left{float:left!important}
+.right{float:right!important}
+.text-left{text-align:left!important}
+.text-right{text-align:right!important}
+.text-center{text-align:center!important}
+.text-justify{text-align:justify!important}
+.hide{display:none}
+img,object,svg{display:inline-block;vertical-align:middle}
+textarea{height:auto;min-height:50px}
+select{width:100%}
+.subheader,.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{line-height:1.45;color:#7a2518;font-weight:400;margin-top:0;margin-bottom:.25em}
+div,dl,dt,dd,ul,ol,li,h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6,pre,form,p,blockquote,th,td{margin:0;padding:0}
+a{color:#2156a5;text-decoration:underline;line-height:inherit}
+a:hover,a:focus{color:#1d4b8f}
+a img{border:0}
+p{line-height:1.6;margin-bottom:1.25em;text-rendering:optimizeLegibility}
+p aside{font-size:.875em;line-height:1.35;font-style:italic}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{font-family:"Open Sans","DejaVu Sans",sans-serif;font-weight:300;font-style:normal;color:#ba3925;text-rendering:optimizeLegibility;margin-top:1em;margin-bottom:.5em;line-height:1.0125em}
+h1 small,h2 small,h3 small,#toctitle small,.sidebarblock>.content>.title small,h4 small,h5 small,h6 small{font-size:60%;color:#e99b8f;line-height:0}
+h1{font-size:2.125em}
+h2{font-size:1.6875em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.375em}
+h4,h5{font-size:1.125em}
+h6{font-size:1em}
+hr{border:solid #dddddf;border-width:1px 0 0;clear:both;margin:1.25em 0 1.1875em}
+em,i{font-style:italic;line-height:inherit}
+strong,b{font-weight:bold;line-height:inherit}
+small{font-size:60%;line-height:inherit}
+code{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;font-weight:400;color:rgba(0,0,0,.9)}
+ul,ol,dl{line-height:1.6;margin-bottom:1.25em;list-style-position:outside;font-family:inherit}
+ul,ol{margin-left:1.5em}
+ul li ul,ul li ol{margin-left:1.25em;margin-bottom:0}
+ul.circle{list-style-type:circle}
+ul.disc{list-style-type:disc}
+ul.square{list-style-type:square}
+ul.circle ul:not([class]),ul.disc ul:not([class]),ul.square ul:not([class]){list-style:inherit}
+ol li ul,ol li ol{margin-left:1.25em;margin-bottom:0}
+dl dt{margin-bottom:.3125em;font-weight:bold}
+dl dd{margin-bottom:1.25em}
+blockquote{margin:0 0 1.25em;padding:.5625em 1.25em 0 1.1875em;border-left:1px solid #ddd}
+blockquote,blockquote p{line-height:1.6;color:rgba(0,0,0,.85)}
+@media screen and (min-width:768px){h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2}
+h1{font-size:2.75em}
+h2{font-size:2.3125em}
+h3,#toctitle,.sidebarblock>.content>.title{font-size:1.6875em}
+h4{font-size:1.4375em}}
+table{background:#fff;margin-bottom:1.25em;border:1px solid #dedede;word-wrap:normal}
+table thead,table tfoot{background:#f7f8f7}
+table thead tr th,table thead tr td,table tfoot tr th,table tfoot tr td{padding:.5em .625em .625em;font-size:inherit;color:rgba(0,0,0,.8);text-align:left}
+table tr th,table tr td{padding:.5625em .625em;font-size:inherit;color:rgba(0,0,0,.8)}
+table tr.even,table tr.alt{background:#f8f8f7}
+table thead tr th,table tfoot tr th,table tbody tr td,table tr td,table tfoot tr td{line-height:1.6}
+h1,h2,h3,#toctitle,.sidebarblock>.content>.title,h4,h5,h6{line-height:1.2;word-spacing:-.05em}
+h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title strong,h4 strong,h5 strong,h6 strong{font-weight:400}
+.center{margin-left:auto;margin-right:auto}
+.stretch{width:100%}
+.clearfix::before,.clearfix::after,.float-group::before,.float-group::after{content:" ";display:table}
+.clearfix::after,.float-group::after{clear:both}
+:not(pre).nobreak{word-wrap:normal}
+:not(pre).nowrap{white-space:nowrap}
+:not(pre).pre-wrap{white-space:pre-wrap}
+:not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
+pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
+pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
+pre>code{display:block}
+pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
+em em{font-style:normal}
+strong strong{font-weight:400}
+.keyseq{color:rgba(51,51,51,.8)}
+kbd{font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;display:inline-block;color:rgba(0,0,0,.8);font-size:.65em;line-height:1.45;background:#f7f7f7;border:1px solid #ccc;border-radius:3px;box-shadow:0 1px 0 rgba(0,0,0,.2),inset 0 0 0 .1em #fff;margin:0 .15em;padding:.2em .5em;vertical-align:middle;position:relative;top:-.1em;white-space:nowrap}
+.keyseq kbd:first-child{margin-left:0}
+.keyseq kbd:last-child{margin-right:0}
+.menuseq,.menuref{color:#000}
+.menuseq b:not(.caret),.menuref{font-weight:inherit}
+.menuseq{word-spacing:-.02em}
+.menuseq b.caret{font-size:1.25em;line-height:.8}
+.menuseq i.caret{font-weight:bold;text-align:center;width:.45em}
+b.button::before,b.button::after{position:relative;top:-1px;font-weight:400}
+b.button::before{content:"[";padding:0 3px 0 2px}
+b.button::after{content:"]";padding:0 2px 0 3px}
+p a>code:hover{color:rgba(0,0,0,.9)}
+#header,#content,#footnotes,#footer{width:100%;margin:0 auto;max-width:62.5em;*zoom:1;position:relative;padding-left:.9375em;padding-right:.9375em}
+#header::before,#header::after,#content::before,#content::after,#footnotes::before,#footnotes::after,#footer::before,#footer::after{content:" ";display:table}
+#header::after,#content::after,#footnotes::after,#footer::after{clear:both}
+#content{margin-top:1.25em}
+#content::before{content:none}
+#header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
+#header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
+#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
+#header .details span:first-child{margin-left:-.125em}
+#header .details span.email a{color:rgba(0,0,0,.85)}
+#header .details br{display:none}
+#header .details br+span::before{content:"\00a0\2013\00a0"}
+#header .details br+span.author::before{content:"\00a0\22c5\00a0";color:rgba(0,0,0,.85)}
+#header .details br+span#revremark::before{content:"\00a0|\00a0"}
+#header #revnumber{text-transform:capitalize}
+#header #revnumber::after{content:"\00a0"}
+#content>h1:first-child:not([class]){color:rgba(0,0,0,.85);border-bottom:1px solid #dddddf;padding-bottom:8px;margin-top:0;padding-top:1rem;margin-bottom:1.25rem}
+#toc{border-bottom:1px solid #e7e7e9;padding-bottom:.5em}
+#toc>ul{margin-left:.125em}
+#toc ul.sectlevel0>li>a{font-style:italic}
+#toc ul.sectlevel0 ul.sectlevel1{margin:.5em 0}
+#toc ul{font-family:"Open Sans","DejaVu Sans",sans-serif;list-style-type:none}
+#toc li{line-height:1.3334;margin-top:.3334em}
+#toc a{text-decoration:none}
+#toc a:active{text-decoration:underline}
+#toctitle{color:#7a2518;font-size:1.2em}
+@media screen and (min-width:768px){#toctitle{font-size:1.375em}
+body.toc2{padding-left:15em;padding-right:0}
+#toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
+#toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
+#toc.toc2>ul{font-size:.9em;margin-bottom:0}
+#toc.toc2 ul ul{margin-left:0;padding-left:1em}
+#toc.toc2 ul.sectlevel0 ul.sectlevel1{padding-left:0;margin-top:.5em;margin-bottom:.5em}
+body.toc2.toc-right{padding-left:0;padding-right:15em}
+body.toc2.toc-right #toc.toc2{border-right-width:0;border-left:1px solid #e7e7e9;left:auto;right:0}}
+@media screen and (min-width:1280px){body.toc2{padding-left:20em;padding-right:0}
+#toc.toc2{width:20em}
+#toc.toc2 #toctitle{font-size:1.375em}
+#toc.toc2>ul{font-size:.95em}
+#toc.toc2 ul ul{padding-left:1.25em}
+body.toc2.toc-right{padding-left:0;padding-right:20em}}
+#content #toc{border:1px solid #e0e0dc;margin-bottom:1.25em;padding:1.25em;background:#f8f8f7;border-radius:4px}
+#content #toc>:first-child{margin-top:0}
+#content #toc>:last-child{margin-bottom:0}
+#footer{max-width:none;background:rgba(0,0,0,.8);padding:1.25em}
+#footer-text{color:hsla(0,0%,100%,.8);line-height:1.44}
+#content{margin-bottom:.625em}
+.sect1{padding-bottom:.625em}
+@media screen and (min-width:768px){#content{margin-bottom:1.25em}
+.sect1{padding-bottom:1.25em}}
+.sect1:last-child{padding-bottom:0}
+.sect1+.sect1{border-top:1px solid #e7e7e9}
+#content h1>a.anchor,h2>a.anchor,h3>a.anchor,#toctitle>a.anchor,.sidebarblock>.content>.title>a.anchor,h4>a.anchor,h5>a.anchor,h6>a.anchor{position:absolute;z-index:1001;width:1.5ex;margin-left:-1.5ex;display:block;text-decoration:none!important;visibility:hidden;text-align:center;font-weight:400}
+#content h1>a.anchor::before,h2>a.anchor::before,h3>a.anchor::before,#toctitle>a.anchor::before,.sidebarblock>.content>.title>a.anchor::before,h4>a.anchor::before,h5>a.anchor::before,h6>a.anchor::before{content:"\00A7";font-size:.85em;display:block;padding-top:.1em}
+#content h1:hover>a.anchor,#content h1>a.anchor:hover,h2:hover>a.anchor,h2>a.anchor:hover,h3:hover>a.anchor,#toctitle:hover>a.anchor,.sidebarblock>.content>.title:hover>a.anchor,h3>a.anchor:hover,#toctitle>a.anchor:hover,.sidebarblock>.content>.title>a.anchor:hover,h4:hover>a.anchor,h4>a.anchor:hover,h5:hover>a.anchor,h5>a.anchor:hover,h6:hover>a.anchor,h6>a.anchor:hover{visibility:visible}
+#content h1>a.link,h2>a.link,h3>a.link,#toctitle>a.link,.sidebarblock>.content>.title>a.link,h4>a.link,h5>a.link,h6>a.link{color:#ba3925;text-decoration:none}
+#content h1>a.link:hover,h2>a.link:hover,h3>a.link:hover,#toctitle>a.link:hover,.sidebarblock>.content>.title>a.link:hover,h4>a.link:hover,h5>a.link:hover,h6>a.link:hover{color:#a53221}
+details,.audioblock,.imageblock,.literalblock,.listingblock,.stemblock,.videoblock{margin-bottom:1.25em}
+details{margin-left:1.25rem}
+details>summary{cursor:pointer;display:block;position:relative;line-height:1.6;margin-bottom:.625rem;outline:none;-webkit-tap-highlight-color:transparent}
+details>summary::-webkit-details-marker{display:none}
+details>summary::before{content:"";border:solid transparent;border-left:solid;border-width:.3em 0 .3em .5em;position:absolute;top:.5em;left:-1.25rem;transform:translateX(15%)}
+details[open]>summary::before{border:solid transparent;border-top:solid;border-width:.5em .3em 0;transform:translateY(15%)}
+details>summary::after{content:"";width:1.25rem;height:1em;position:absolute;top:.3em;left:-1.25rem}
+.admonitionblock td.content>.title,.audioblock>.title,.exampleblock>.title,.imageblock>.title,.listingblock>.title,.literalblock>.title,.stemblock>.title,.openblock>.title,.paragraph>.title,.quoteblock>.title,table.tableblock>.title,.verseblock>.title,.videoblock>.title,.dlist>.title,.olist>.title,.ulist>.title,.qlist>.title,.hdlist>.title{text-rendering:optimizeLegibility;text-align:left;font-family:"Noto Serif","DejaVu Serif",serif;font-size:1rem;font-style:italic}
+table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
+.paragraph.lead>p,#preamble>.sectionbody>[class=paragraph]:first-of-type p{font-size:1.21875em;line-height:1.6;color:rgba(0,0,0,.85)}
+.admonitionblock>table{border-collapse:separate;border:0;background:none;width:100%}
+.admonitionblock>table td.icon{text-align:center;width:80px}
+.admonitionblock>table td.icon img{max-width:none}
+.admonitionblock>table td.icon .title{font-weight:bold;font-family:"Open Sans","DejaVu Sans",sans-serif;text-transform:uppercase}
+.admonitionblock>table td.content{padding-left:1.125em;padding-right:1.25em;border-left:1px solid #dddddf;color:rgba(0,0,0,.6);word-wrap:anywhere}
+.admonitionblock>table td.content>:last-child>:last-child{margin-bottom:0}
+.exampleblock>.content{border:1px solid #e6e6e6;margin-bottom:1.25em;padding:1.25em;background:#fff;border-radius:4px}
+.sidebarblock{border:1px solid #dbdbd6;margin-bottom:1.25em;padding:1.25em;background:#f3f3f2;border-radius:4px}
+.sidebarblock>.content>.title{color:#7a2518;margin-top:0;text-align:center}
+.exampleblock>.content>:first-child,.sidebarblock>.content>:first-child{margin-top:0}
+.exampleblock>.content>:last-child,.exampleblock>.content>:last-child>:last-child,.exampleblock>.content .olist>ol>li:last-child>:last-child,.exampleblock>.content .ulist>ul>li:last-child>:last-child,.exampleblock>.content .qlist>ol>li:last-child>:last-child,.sidebarblock>.content>:last-child,.sidebarblock>.content>:last-child>:last-child,.sidebarblock>.content .olist>ol>li:last-child>:last-child,.sidebarblock>.content .ulist>ul>li:last-child>:last-child,.sidebarblock>.content .qlist>ol>li:last-child>:last-child{margin-bottom:0}
+.literalblock pre,.listingblock>.content>pre{border-radius:4px;overflow-x:auto;padding:1em;font-size:.8125em}
+@media screen and (min-width:768px){.literalblock pre,.listingblock>.content>pre{font-size:.90625em}}
+@media screen and (min-width:1280px){.literalblock pre,.listingblock>.content>pre{font-size:1em}}
+.literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
+.literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
+.listingblock>.content{position:relative}
+.listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
+.listingblock:hover code[data-lang]::before{display:block}
+.listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
+.listingblock.terminal pre .command:not([data-prompt])::before{content:"$"}
+.listingblock pre.highlightjs{padding:0}
+.listingblock pre.highlightjs>code{padding:1em;border-radius:4px}
+.listingblock pre.prettyprint{border-width:0}
+.prettyprint{background:#f7f7f8}
+pre.prettyprint .linenums{line-height:1.45;margin-left:2em}
+pre.prettyprint li{background:none;list-style-type:inherit;padding-left:0}
+pre.prettyprint li code[data-lang]::before{opacity:1}
+pre.prettyprint li:not(:first-child) code[data-lang]::before{display:none}
+table.linenotable{border-collapse:separate;border:0;margin-bottom:0;background:none}
+table.linenotable td[class]{color:inherit;vertical-align:top;padding:0;line-height:inherit;white-space:normal}
+table.linenotable td.code{padding-left:.75em}
+table.linenotable td.linenos,pre.pygments .linenos{border-right:1px solid;opacity:.35;padding-right:.5em;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+pre.pygments span.linenos{display:inline-block;margin-right:.75em}
+.quoteblock{margin:0 1em 1.25em 1.5em;display:table}
+.quoteblock:not(.excerpt)>.title{margin-left:-1.5em;margin-bottom:.75em}
+.quoteblock blockquote,.quoteblock p{color:rgba(0,0,0,.85);font-size:1.15rem;line-height:1.75;word-spacing:.1em;letter-spacing:0;font-style:italic;text-align:justify}
+.quoteblock blockquote{margin:0;padding:0;border:0}
+.quoteblock blockquote::before{content:"\201c";float:left;font-size:2.75em;font-weight:bold;line-height:.6em;margin-left:-.6em;color:#7a2518;text-shadow:0 1px 2px rgba(0,0,0,.1)}
+.quoteblock blockquote>.paragraph:last-child p{margin-bottom:0}
+.quoteblock .attribution{margin-top:.75em;margin-right:.5ex;text-align:right}
+.verseblock{margin:0 1em 1.25em}
+.verseblock pre{font-family:"Open Sans","DejaVu Sans",sans-serif;font-size:1.15rem;color:rgba(0,0,0,.85);font-weight:300;text-rendering:optimizeLegibility}
+.verseblock pre strong{font-weight:400}
+.verseblock .attribution{margin-top:1.25rem;margin-left:.5ex}
+.quoteblock .attribution,.verseblock .attribution{font-size:.9375em;line-height:1.45;font-style:italic}
+.quoteblock .attribution br,.verseblock .attribution br{display:none}
+.quoteblock .attribution cite,.verseblock .attribution cite{display:block;letter-spacing:-.025em;color:rgba(0,0,0,.6)}
+.quoteblock.abstract blockquote::before,.quoteblock.excerpt blockquote::before,.quoteblock .quoteblock blockquote::before{display:none}
+.quoteblock.abstract blockquote,.quoteblock.abstract p,.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{line-height:1.6;word-spacing:0}
+.quoteblock.abstract{margin:0 1em 1.25em;display:block}
+.quoteblock.abstract>.title{margin:0 0 .375em;font-size:1.15em;text-align:center}
+.quoteblock.excerpt>blockquote,.quoteblock .quoteblock{padding:0 0 .25em 1em;border-left:.25em solid #dddddf}
+.quoteblock.excerpt,.quoteblock .quoteblock{margin-left:0}
+.quoteblock.excerpt blockquote,.quoteblock.excerpt p,.quoteblock .quoteblock blockquote,.quoteblock .quoteblock p{color:inherit;font-size:1.0625rem}
+.quoteblock.excerpt .attribution,.quoteblock .quoteblock .attribution{color:inherit;font-size:.85rem;text-align:left;margin-right:0}
+p.tableblock:last-child{margin-bottom:0}
+td.tableblock>.content{margin-bottom:1.25em;word-wrap:anywhere}
+td.tableblock>.content>:last-child{margin-bottom:-1.25em}
+table.tableblock,th.tableblock,td.tableblock{border:0 solid #dedede}
+table.grid-all>*>tr>*{border-width:1px}
+table.grid-cols>*>tr>*{border-width:0 1px}
+table.grid-rows>*>tr>*{border-width:1px 0}
+table.frame-all{border-width:1px}
+table.frame-ends{border-width:1px 0}
+table.frame-sides{border-width:0 1px}
+table.frame-none>colgroup+*>:first-child>*,table.frame-sides>colgroup+*>:first-child>*{border-top-width:0}
+table.frame-none>:last-child>:last-child>*,table.frame-sides>:last-child>:last-child>*{border-bottom-width:0}
+table.frame-none>*>tr>:first-child,table.frame-ends>*>tr>:first-child{border-left-width:0}
+table.frame-none>*>tr>:last-child,table.frame-ends>*>tr>:last-child{border-right-width:0}
+table.stripes-all>*>tr,table.stripes-odd>*>tr:nth-of-type(odd),table.stripes-even>*>tr:nth-of-type(even),table.stripes-hover>*>tr:hover{background:#f8f8f7}
+th.halign-left,td.halign-left{text-align:left}
+th.halign-right,td.halign-right{text-align:right}
+th.halign-center,td.halign-center{text-align:center}
+th.valign-top,td.valign-top{vertical-align:top}
+th.valign-bottom,td.valign-bottom{vertical-align:bottom}
+th.valign-middle,td.valign-middle{vertical-align:middle}
+table thead th,table tfoot th{font-weight:bold}
+tbody tr th{background:#f7f8f7}
+tbody tr th,tbody tr th p,tfoot tr th,tfoot tr th p{color:rgba(0,0,0,.8);font-weight:bold}
+p.tableblock>code:only-child{background:none;padding:0}
+p.tableblock{font-size:1em}
+ol{margin-left:1.75em}
+ul li ol{margin-left:1.5em}
+dl dd{margin-left:1.125em}
+dl dd:last-child,dl dd:last-child>:last-child{margin-bottom:0}
+li p,ul dd,ol dd,.olist .olist,.ulist .ulist,.ulist .olist,.olist .ulist{margin-bottom:.625em}
+ul.checklist,ul.none,ol.none,ul.no-bullet,ol.no-bullet,ol.unnumbered,ul.unstyled,ol.unstyled{list-style-type:none}
+ul.no-bullet,ol.no-bullet,ol.unnumbered{margin-left:.625em}
+ul.unstyled,ol.unstyled{margin-left:0}
+li>p:empty:only-child::before{content:"";display:inline-block}
+ul.checklist>li>p:first-child{margin-left:-1em}
+ul.checklist>li>p:first-child>.fa-square-o:first-child,ul.checklist>li>p:first-child>.fa-check-square-o:first-child{width:1.25em;font-size:.8em;position:relative;bottom:.125em}
+ul.checklist>li>p:first-child>input[type=checkbox]:first-child{margin-right:.25em}
+ul.inline{display:flex;flex-flow:row wrap;list-style:none;margin:0 0 .625em -1.25em}
+ul.inline>li{margin-left:1.25em}
+.unstyled dl dt{font-weight:400;font-style:normal}
+ol.arabic{list-style-type:decimal}
+ol.decimal{list-style-type:decimal-leading-zero}
+ol.loweralpha{list-style-type:lower-alpha}
+ol.upperalpha{list-style-type:upper-alpha}
+ol.lowerroman{list-style-type:lower-roman}
+ol.upperroman{list-style-type:upper-roman}
+ol.lowergreek{list-style-type:lower-greek}
+.hdlist>table,.colist>table{border:0;background:none}
+.hdlist>table>tbody>tr,.colist>table>tbody>tr{background:none}
+td.hdlist1,td.hdlist2{vertical-align:top;padding:0 .625em}
+td.hdlist1{font-weight:bold;padding-bottom:1.25em}
+td.hdlist2{word-wrap:anywhere}
+.literalblock+.colist,.listingblock+.colist{margin-top:-.5em}
+.colist td:not([class]):first-child{padding:.4em .75em 0;line-height:1;vertical-align:top}
+.colist td:not([class]):first-child img{max-width:none}
+.colist td:not([class]):last-child{padding:.25em 0}
+.thumb,.th{line-height:0;display:inline-block;border:4px solid #fff;box-shadow:0 0 0 1px #ddd}
+.imageblock.left{margin:.25em .625em 1.25em 0}
+.imageblock.right{margin:.25em 0 1.25em .625em}
+.imageblock>.title{margin-bottom:0}
+.imageblock.thumb,.imageblock.th{border-width:6px}
+.imageblock.thumb>.title,.imageblock.th>.title{padding:0 .125em}
+.image.left,.image.right{margin-top:.25em;margin-bottom:.25em;display:inline-block;line-height:0}
+.image.left{margin-right:.625em}
+.image.right{margin-left:.625em}
+a.image{text-decoration:none;display:inline-block}
+a.image object{pointer-events:none}
+sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
+sup.footnote a,sup.footnoteref a{text-decoration:none}
+sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+#footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
+#footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
+#footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
+#footnotes .footnote a:first-of-type{font-weight:bold;text-decoration:none;margin-left:-1.05em}
+#footnotes .footnote:last-of-type{margin-bottom:0}
+#content #footnotes{margin-top:-.625em;margin-bottom:0;padding:.75em 0}
+div.unbreakable{page-break-inside:avoid}
+.big{font-size:larger}
+.small{font-size:smaller}
+.underline{text-decoration:underline}
+.overline{text-decoration:overline}
+.line-through{text-decoration:line-through}
+.aqua{color:#00bfbf}
+.aqua-background{background:#00fafa}
+.black{color:#000}
+.black-background{background:#000}
+.blue{color:#0000bf}
+.blue-background{background:#0000fa}
+.fuchsia{color:#bf00bf}
+.fuchsia-background{background:#fa00fa}
+.gray{color:#606060}
+.gray-background{background:#7d7d7d}
+.green{color:#006000}
+.green-background{background:#007d00}
+.lime{color:#00bf00}
+.lime-background{background:#00fa00}
+.maroon{color:#600000}
+.maroon-background{background:#7d0000}
+.navy{color:#000060}
+.navy-background{background:#00007d}
+.olive{color:#606000}
+.olive-background{background:#7d7d00}
+.purple{color:#600060}
+.purple-background{background:#7d007d}
+.red{color:#bf0000}
+.red-background{background:#fa0000}
+.silver{color:#909090}
+.silver-background{background:#bcbcbc}
+.teal{color:#006060}
+.teal-background{background:#007d7d}
+.white{color:#bfbfbf}
+.white-background{background:#fafafa}
+.yellow{color:#bfbf00}
+.yellow-background{background:#fafa00}
+span.icon>.fa{cursor:default}
+a span.icon>.fa{cursor:inherit}
+.admonitionblock td.icon [class^="fa icon-"]{font-size:2.5em;text-shadow:1px 1px 2px rgba(0,0,0,.5);cursor:default}
+.admonitionblock td.icon .icon-note::before{content:"\f05a";color:#19407c}
+.admonitionblock td.icon .icon-tip::before{content:"\f0eb";text-shadow:1px 1px 2px rgba(155,155,0,.8);color:#111}
+.admonitionblock td.icon .icon-warning::before{content:"\f071";color:#bf6900}
+.admonitionblock td.icon .icon-caution::before{content:"\f06d";color:#bf3400}
+.admonitionblock td.icon .icon-important::before{content:"\f06a";color:#bf0000}
+.conum[data-value]{display:inline-block;color:#fff!important;background:rgba(0,0,0,.8);border-radius:50%;text-align:center;font-size:.75em;width:1.67em;height:1.67em;line-height:1.67em;font-family:"Open Sans","DejaVu Sans",sans-serif;font-style:normal;font-weight:bold}
+.conum[data-value] *{color:#fff!important}
+.conum[data-value]+b{display:none}
+.conum[data-value]::after{content:attr(data-value)}
+pre .conum[data-value]{position:relative;top:-.125em}
+b.conum *{color:inherit!important}
+.conum:not([data-value]):empty{display:none}
+dt,th.tableblock,td.content,div.footnote{text-rendering:optimizeLegibility}
+h1,h2,p,td.content,span.alt,summary{letter-spacing:-.01em}
+p strong,td.content strong,div.footnote strong{letter-spacing:-.005em}
+p,blockquote,dt,td.content,td.hdlist1,span.alt,summary{font-size:1.0625rem}
+p{margin-bottom:1.25rem}
+.sidebarblock p,.sidebarblock dt,.sidebarblock td.content,p.tableblock{font-size:1em}
+.exampleblock>.content{background:#fffef7;border-color:#e0e0dc;box-shadow:0 1px 4px #e0e0dc}
+.print-only{display:none!important}
+@page{margin:1.25cm .75cm}
+@media print{*{box-shadow:none!important;text-shadow:none!important}
+html{font-size:80%}
+a{color:inherit!important;text-decoration:underline!important}
+a.bare,a[href^="#"],a[href^="mailto:"]{text-decoration:none!important}
+a[href^="http:"]:not(.bare)::after,a[href^="https:"]:not(.bare)::after{content:"(" attr(href) ")";display:inline-block;font-size:.875em;padding-left:.25em}
+abbr[title]{border-bottom:1px dotted}
+abbr[title]::after{content:" (" attr(title) ")"}
+pre,blockquote,tr,img,object,svg{page-break-inside:avoid}
+thead{display:table-header-group}
+svg{max-width:100%}
+p,blockquote,dt,td.content{font-size:1em;orphans:3;widows:3}
+h2,h3,#toctitle,.sidebarblock>.content>.title{page-break-after:avoid}
+#header,#content,#footnotes,#footer{max-width:none}
+#toc,.sidebarblock,.exampleblock>.content{background:none!important}
+#toc{border-bottom:1px solid #dddddf!important;padding-bottom:0!important}
+body.book #header{text-align:center}
+body.book #header>h1:first-child{border:0!important;margin:2.5em 0 1em}
+body.book #header .details{border:0!important;display:block;padding:0!important}
+body.book #header .details span:first-child{margin-left:0!important}
+body.book #header .details br{display:block}
+body.book #header .details br+span::before{content:none!important}
+body.book #toc{border:0!important;text-align:left!important;padding:0!important;margin:0!important}
+body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-break-before:always}
+.listingblock code[data-lang]::before{display:block}
+#footer{padding:0 .9375em}
+.hide-on-print{display:none!important}
+.print-only{display:block!important}
+.hide-for-print{display:none!important}
+.show-for-print{display:inherit!important}}
+@media amzn-kf8,print{#header>h1:first-child{margin-top:1.25rem}
+.sect1{padding:0!important}
+.sect1+.sect1{border:0}
+#footer{background:none}
+#footer-text{color:rgba(0,0,0,.6);font-size:.9em}}
+@media amzn-kf8{#header,#content,#footnotes,#footer{padding:0}}
+</style>
+</head>
+<body class="article">
+<div id="header">
+<h1>The Ethical Dilemma</h1>
+</div>
+<div id="content">
+<div class="sect1">
+<h2 id="_what_is_a_dilemma">What is a Dilemma</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Dilemma is a situation that forces you to choose between two options, both of which are equally bad or good.</p>
+</div>
+<div class="paragraph">
+<p>It can also be an argument formed by two contrary propositions disjunctively, in such a way that, denied or granted either of the two, a certain conclusion.</p>
+</div>
+<div class="sect2">
+<h3 id="_what_is_an_ethical_dilemma">What is an Ethical Dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>It&#8217;s a difficult situation where it is not clear or simple to discern what is the best decision, since the person can choose, at least, between two courses of action, each of which seems to be well justified by some standard of behavior that is correct for that person.</p>
+</li>
+<li>
+<p>In most dilemmas, any path or option that is taken involves a loss.</p>
+</li>
+<li>
+<p>The key is to decide based on values and principles that privilege not only the individual but the common good.</p>
+</li>
+<li>
+<p>The first step is to know the meaning of the term ethical dilemma is to discover the etymological origin of the two words that give it shape:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Dilemma comes from the Greek "dilemma", which is formed from the sum of two differentiated parts: the prefix "dis-", which means "two", and the noun "lemma", which is synonymous with "themes".</p>
+</li>
+<li>
+<p>Ethical also emanates from Greek. It is the result of the union of "ethos", which means "custom", and the suffix "-ikos", which can be translated as "relative to".</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Dilemma is denominated to the situation that forces to choose between two alternatives.</p>
+</li>
+<li>
+<p>The ethical, on the other hand, is what conforms to moral norms. That is, that adapts to what is considered good, positive or acceptable.</p>
+</li>
+<li>
+<p>An ethical dilemma, therefore, occurs when a person is forced to choose between alternatives that, in some way, can cause a moral fault.</p>
+</li>
+<li>
+<p>This type of dilemma is linked to the acceptance, or not, of a questionable means from the ethical point of view with an altruistic or benevolent end.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_definition">Definition</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The ethical dilemma can be defined as a situation in which an apparent conflict between two ethical imperatives is present and where choosing one of them may imply that the other is transgressed.</p>
+</li>
+<li>
+<p>It is a situation where the individual has a series of reasons why two different actions can be carried out, each of them with a specific favoring to a different principle.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_characteristics">Characteristics</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Ethical dilemmas are usually generated from a specific fact in which a situation that can be hypothetical is subscribed.</p>
+</li>
+<li>
+<p>It produces a series of conflicts in the moral sphere.</p>
+</li>
+<li>
+<p>It is closely linked to ethical problems which can cause damage to individuals.</p>
+</li>
+<li>
+<p>The decisions made in an ethical dilemma can lead to losses.</p>
+</li>
+<li>
+<p>To solve, decisions must be made based on values and principles that help to obtain a common good and not just an individual good.</p>
+</li>
+<li>
+<p>They usually do not present solutions that turn out to be pleasant for all the people involved or participants.</p>
+</li>
+<li>
+<p>They are generally raised as a type of educational mechanism</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_types">Types</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The concept of ethical dilemma may seem clear, but there is not a single type.</p>
+</li>
+<li>
+<p>Depending on various criteria we can find different types of dilemmas, which can vary in their level of concreteness, in the role of the subject to whom it is presented or in its verisimilitude.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">In this sense, some of the main types are the following:</div>
+<ul>
+<li>
+<p>Hypothetical dilemma</p>
+</li>
+<li>
+<p>Closed dilemma</p>
+</li>
+<li>
+<p>Real dilemma</p>
+</li>
+<li>
+<p>Complete dilemma</p>
+</li>
+<li>
+<p>Incomplete dilemma</p>
+</li>
+<li>
+<p>Open dilemma</p>
+</li>
+</ul>
+</div>
+<div class="sect2">
+<h3 id="_hypothetical_dilemma">Hypothetical Dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>It is a dilemma that places the person to whom it is asked in a position in which he is confronted with a situation that is very unlikely to happen in real life.</p>
+</li>
+<li>
+<p>It is not necessary for the person to whom the dilemma is asked to be the protagonist of it, being able to be asked what the character should do.</p>
+</li>
+<li>
+<p>The topics that are dealt with in this type of dilemma do not have to be impossible, but they must be unusual in everyday life.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_example_of_hypothetical_dilemma">Example of Hypothetical Dilemma</h4>
+<div class="sect4">
+<h5 id="_example_1">Example 1</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>It is a member of the UN Security Council who has to vote on a matter of systematic violation of Human Rights by a State.</p>
+</li>
+<li>
+<p>To the front of this it is found a dictator that doesn&#8217;t let any kind of democratic advance in their country, and who also militarily persecutes certain ethnic minorities, against whom he is carrying out systematic actions of genocide.</p>
+</li>
+<li>
+<p>In the Security Council he must give his vote to one of the following options:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Do not intervene, since the matter can be considered internal to that State, and any intervention by the UN could be interpreted as interference in internal affairs.</p>
+</li>
+<li>
+<p>Approve an economic embargo, guaranteed by military surveillance of its borders, although the effects of said embargo fall mainly on the civilian population of that State, a large part of which does not support the dictator.</p>
+</li>
+<li>
+<p>Approve a military intervention in defense of the attacked ethnic minorities, even if that decision implies starting a war where thousands of people will die.
+===== Example 2</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Would you support an armed intervention in Venezuela? Why or why not?</p>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_closed_dilemma">Closed Dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Includes decisions that have already been made previously on a specific problem or event.</p>
+</li>
+<li>
+<p>At the time of presenting the dilemma, it is sought to find different types of opinions so that the performance of the person who had to take a certain position before the situation can be evaluated later.</p>
+</li>
+<li>
+<p>The person to whom the dilemma is presented should not decide what to do, but rather assess the performance of the protagonist.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_example_of_closed_dilemma">Example of Closed Dilemma</h4>
+<div class="sect4">
+<h5 id="_example_1_2">Example 1</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Text by Paulo Coelho: Some time ago, my wife helped a Swiss tourist in the Ipanema area, who claimed to have been the victim of thieves.</p>
+</li>
+<li>
+<p>Speaking very bad Portuguese with a foreign accent, he claimed to be without a passport, money or a place to sleep.</p>
+</li>
+<li>
+<p>My wife paid him a lunch and gave him the money he needed to spend the night in a hotel until he contacted his embassy, and left.</p>
+</li>
+<li>
+<p>Days later, a newspaper in the city reported that the "Swiss tourist" was actually a very creative scoundrel, who pretended to have a foreign accent and abused the good faith of people.</p>
+</li>
+<li>
+<p>When reading the news, my wife limited herself to commenting: "That will not prevent me from continuing to help whoever I can." What value judgments could be issued?</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_real_dilemma">Real dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>This dilemma deals with a topic or situation that is close to the people to whom it is presented, either because it refers to an event that has lived or to something that can happen relatively easily in their day to day.</p>
+</li>
+<li>
+<p>Real dilemmas raise situations that are less dramatic, however, having the possibility of being more related to daily life, they can awaken stronger emotions and alterations.</p>
+</li>
+<li>
+<p>It is not necessary for the person to whom the dilemma is presented to be the protagonist of it, being able to be asked what the character should do.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_real_dilemma_example">Real Dilemma Example</h4>
+<div class="sect4">
+<h5 id="_example_1_3">Example 1</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Would you give alms to an alcoholic beggar, even if you knew that he would probably spend the money on wine?</p>
+</li>
+<li>
+<p>Would you argue that the purpose for which he asks for money (getting drunk) is bad, and therefore would you abstain from giving it to him?</p>
+</li>
+<li>
+<p>Would you think that he is a sick person who cannot avoid getting drunk, and that that act does not harm anyone except himself, and because of his incurable addiction, would you give him the alms he asks for?</p>
+</li>
+<li>
+<p>Do you consider any of the previous two decisions immoral?</p>
+</li>
+<li>
+<p>Why?</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_example_2">Example 2</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>A child who attends a school has psychiatric problems and is a threat to the other students because he is extremely aggressive. However, the school cannot expel him because it would be denying education to a person who, although dangerous, is in his right to study.</p>
+</li>
+<li>
+<p>Questions:</p>
+<div class="ulist">
+<ul>
+<li>
+<p>What is done in this case?</p>
+</li>
+<li>
+<p>Is the rest of the students protected or is it a matter of caring for and supporting the child with problems?</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_complete_dilemma">Complete dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The complete dilemma is the type of dilemma that is raised when a person is given all the information that is necessary about a certain situation but, there is not a clear explanation of what is the best way to solve the story.</p>
+</li>
+<li>
+<p>It is intended that the person to whom this dilemma is suggested choose how to proceed in that situation.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_example_of_complete_dilemma">Example of Complete Dilemma</h4>
+<div class="sect4">
+<h5 id="_example_1_4">Example 1</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>A train is circulating on a track at full speed and out of control, just before the change of needles that would allow it to continue on another track. You realize that on the same train track there are 5 people working, who will die if the train reaches them.</p>
+</li>
+<li>
+<p>Fortunately you are in front of the change of needles and you have the option of diverting the train through the other track. However, on this other track there is another person working, who will also die if the train is diverted.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>In this ethical dilemma, it is in your hands to decide whether to divert the train leaving a person to die, or not to divert it and leave five people to die.</p>
+</li>
+<li>
+<p>What would be your decision and why?</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_incomplete_dilemma">Incomplete dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The incomplete dilemma raises a situation in which not all the possible consequences that may come from a certain problem are known in full.</p>
+</li>
+<li>
+<p>This causes, before making the choice, imagination and creativity to be used to be able to think about which options could happen depending on the options that are available.</p>
+</li>
+<li>
+<p>In these dilemmas the consequences of the decisions made by the protagonist are not made explicit, depending to a large extent on the subject&#8217;s ability to imagine advantages and disadvantages.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_example_of_incomplete_dilemma">Example of Incomplete Dilemma</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>Condemn an innocent person to save a town.</p>
+</li>
+<li>
+<p>Are you in agreement with Robin Hood?: <em>steal from the rich to give it to the poor</em>.</p>
+</li>
+<li>
+<p>Torture a person to get information that allows you to stop some criminals.</p>
+</li>
+<li>
+<p>If by some chance of life, you would surprise two famous people in an intimate, affectionate and compromising attitude for their honor, and you would have a camera or video camera at hand, would you photograph them and try to sell those images to a magazine that would pay you a good pile of money for them, or on the contrary, would you respect their right to privacy?</p>
+</li>
+<li>
+<p>Would you be willing to share part of what you have left over (part of your pay, give up buying expensive and expensive clothes, dedicate your free time to work for an NGO, etc.) to try to remedy the poverty existing in the world? Or do you perhaps think that with individual attitudes nothing is solved and that this task should be the exclusive mission of the State (citizens already pay taxes, a part of which is dedicated to helping the poor)?</p>
+</li>
+<li>
+<p>Would you be able to lie about your professional qualification to get a job, even if with that lie you harm other candidates for the job? If you were in that situation: would you tell the truth or would you try to get that job at all costs? In the latter case, how would you morally justify your conduct?</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_open_dilemma">Open dilemma</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>The open dilemma focuses on receiving all the information that is necessary about a certain situation but, there is no clear explanation of what is the best way to solve the story.</p>
+</li>
+<li>
+<p>It is intended that the person to whom this dilemma is suggested choose how to proceed in that situation.</p>
+</li>
+<li>
+<p>The main objective of this type of dilemma is; to be able to create a field of debate to make complicated decisions always taking into account the values.</p>
+</li>
+</ul>
+</div>
+<div class="sect3">
+<h4 id="_example_of_open_dilemma">Example of Open Dilemma</h4>
+<div class="sect4">
+<h5 id="_example_1_5">Example 1</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Some years ago, the international press denounced that large multinational companies (some of the big brands of clothing and sports shoes) used children in their factories installed in Third World countries.</p>
+</li>
+<li>
+<p>According to the published reports, the working conditions that occurred in those factories were scandalous.</p>
+</li>
+<li>
+<p>In this way, companies managed to manufacture the product at a much lower price than they would have to pay if those garments had been manufactured in countries with legislation that respects Human Rights and protects the labor and union rights of workers.</p>
+<div class="ulist">
+<ul>
+<li>
+<p>If you had evidence that a multinational clothing company uses these practices, would you buy clothes from that brand, even if it was cheaper and you especially liked the garments it manufactures? Why or why not?</p>
+</li>
+<li>
+<p>The implication of the participant in the dilemma is made by asking the question: "What would you have done in that situation?"</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_how_to_face_an_ethical_dilemma">How to Face an Ethical Dilemma</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>Ethical dilemmas, also known as moral dilemmas, cannot be faced and resolved in a positive way if the person who is involved in them is governed by a traditionalist moral code.</p>
+</li>
+<li>
+<p>Society or personal values do not have the ability to generate a response that is considered acceptable in this type of dilemma.</p>
+</li>
+<li>
+<p>The ethical dilemma is mainly a hypothetical situation to be able to raise a reflection on ethics, values and moral code.</p>
+</li>
+</ul>
+</div>
+<div class="ulist">
+<div class="title">Some important steps to solve ethical problems are:</div>
+<ul>
+<li>
+<p>Determine if the situation in which you are needs to include decision making away from your own values.</p>
+</li>
+<li>
+<p>Think and reflect on all the values that may be involved within the dilemma.</p>
+</li>
+<li>
+<p>Create an action plan and also think about the possible results.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_difference_of_an_ethical_dilemma_of_a_moral_dilemma">Difference of an Ethical Dilemma of a Moral Dilemma</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>The ethical dilemma occurs when an individual is forced to choose between two situations, a choice that will cause the transgression of the other.</p>
+</li>
+<li>
+<p>The moral dilemma is a type of problem in which the decision to be made can be censored and criticized by other people.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_what_to_take_into_account_with_ethical_dilemmas">What to take into Account with Ethical Dilemmas</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p><strong>They are</strong> present every time, no matter how imperceptible they are. From the behavior of known people, professional life, personal reactions in moments of adversity, to the classic love dilemmas.</p>
+</li>
+<li>
+<p><strong>What they do</strong> is to test convictions and beliefs, leading people to a paradoxical and often stressful state, in which the moral code is taken to the most crucial.</p>
+</li>
+<li>
+<p><strong>They make you</strong> reflect on the reasons for doing things and the way of seeing the world. Thus, they are not alien to people, but part of normal life.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_analysis_process_of_ethical_dilemma">Analysis Process of Ethical Dilemma</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>One of the processes used in the analysis of an ethical dilemma and decision making is that of four steps proposed by Kallmany Grillo (1996). It is a process of critical reflection that helps to make an ethically defensible decision.</p>
+</div>
+<div class="olist arabic">
+<div class="title">Analysis Process of Ethical Dilemma by Kallmany Grillo (1996)</div>
+<ol class="arabic">
+<li>
+<p><strong>Understand the situation:</strong> It is necessary to discover the implementation to the key people and the relevant facts involved in the ethical problem and its potential damage.</p>
+</li>
+<li>
+<p><strong>Isolate the main ethical dilemma:</strong> There must be a complete understanding of the ethical problem to reach a quality decision.</p>
+</li>
+<li>
+<p><strong>Analyze ethically the alternatives:</strong> Ethical analysis is done by answering a series of questions that have a sustained number of common ethical principles in their essence.</p>
+</li>
+<li>
+<p><strong>Take a decision and plan the implementation to the key people:</strong> The answers do not give the ethical solution, but they help to understand how specific principles apply to the situation. The purpose is to provide reasonable support for the decision that is made.</p>
+</li>
+</ol>
+</div>
+<div class="paragraph">
+<p>This process suggests that before making a decision in the face of an ethical dilemma, a critical reflection should be made on who would benefit from this decision and who would be harmed, what rights could be protected and what duties could be neglected.</p>
+</div>
+</div>
+</div>
+</div>
+<div id="footer">
+<div id="footer-text">
+Last updated 2023-10-13 20:34:41 UTC
+</div>
+</div>
+</body>
+</html>
