@@ -2,7 +2,7 @@
 Jassiel O. F.  <a2021117600@estudiantes.upsa.edu.bo>
 // v2021.02
 // :description: any description
-:source-highlighter: highlight.js
+:source-highlighter: rouge
 :icons: font
 // :doctype: article
 :toc: right
